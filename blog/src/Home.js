@@ -59,24 +59,65 @@
 
 //React component states
 
-import React from "react";
+// import React from "react";
 
-export default class Home extends React.Component {
-  constructor() {
-    super();
+// export default class Home extends React.Component {
+//   constructor() {
+//     super();
 
-    this.state = {
-      name: "vaishnavi",
-      lastname: "choudhary",
-    };
-  }
+//     this.state = {
+//       name: "vaishnavi",
+//       lastname: "choudhary",
+//       rollno: "17",
+//       count: 0
+//     };
+//   }
+// updatestate(){
+//     this.setState({
+//         name: "panda",
+//         count:this.state.count+1
+//     })
+// }
 
-  render() {
-    return (
-      <div>
-        <h1>Name : {this.state.name}</h1>
-        <h1>LastName : {this.state.lastname}</h1>
-      </div>
-    );
-  }
-}
+//   render() {
+//     return (
+//       <div>
+//         <h1>Name : {this.state.name}</h1>
+//         <h1>LastName : {this.state.lastname}</h1>
+//         <h1>Roll No: {this.state.rollno}</h1>
+//         <label>Count: {this.state.count}</label>
+//         <br />
+//         <button onClick={()=>{
+//            this.updatestate()
+//         }}>Update Name</button>
+//       </div>
+//     );
+//   }
+// }
+
+
+// import React from 'react'
+// import { useState } from 'react'
+
+// function Home() {
+
+//     const [hide, sethide]=useState(false)
+
+//     const hide11 = () =>{
+//        sethide(!hide)
+
+//     }
+//   return (
+//     <div> 
+       
+//         {hide ? null :  <h1>Hide and SHow of Buttons</h1>}
+//         <button onClick={hide11}>Click Me</button>
+    
+    
+//     </div>
+    
+//   )
+// }
+
+// export default Home
+
